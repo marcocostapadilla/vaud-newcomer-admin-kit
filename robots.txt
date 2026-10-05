@@ -2,4 +2,7 @@
 User-agent: *
 Allow: /
 
+# Note: on GitHub project Pages, crawlers only honour robots.txt at the domain root
+# (https://marcocostapadilla.github.io/robots.txt), not under /vaud-newcomer-admin-kit/.
+# Submit sitemap.xml in Google Search Console as well.
 Sitemap: https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/sitemap.xml

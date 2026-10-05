@@ -49,6 +49,7 @@ the linked official sources.
 - `fr/`: French versions of Home, the printable checklist, Permit & commune, LAMal and EPFL housing
   (language switch EN ↔ FR on those pages; untranslated topics link back to the English page).
 - `glossary.html`: plain-language glossary, linked from every page's nav and footer.
-- `sitemap.xml` / `robots.txt`: path-only sitemap entries because no public URL is approved yet. At go-live,
-  rebuild with `python3 build.py --base-url https://<user>.github.io/<repo>` so the `<loc>`s and the
-  `Sitemap:` line become absolute.
+- `sitemap.xml` / `robots.txt`: absolute URLs under
+  `https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/` (see `SEO.md` at the kit root).
+  Note: crawlers only honour `robots.txt` at the GitHub Pages **domain root**, not under this project path —
+  submit the sitemap in Search Console as well.

@@ -1,33 +1,154 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/index.html</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/avs.html</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/bank-practical.html</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/bank.html</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/camipro.html</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/driving-licence.html</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/epfl-housing.html</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/first-weeks-checklist.html</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/fr/epfl-housing.html</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/fr/first-weeks-checklist.html</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/fr/index.html</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/fr/lamal.html</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/fr/permit-commune.html</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/getting-around.html</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/glossary.html</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/gp-pharmacy.html</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/health-emergencies.html</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/household-rc-insurance.html</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/lamal.html</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/permit-commune.html</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/phone.html</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/rental-deposit.html</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/residence-tax-vs-income-tax.html</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/semester-deadlines.html</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/serafe.html</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/student-tax.html</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/timeline.html</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/waitlist.html</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/waste-recycling.html</loc><lastmod>2026-10-05</lastmod></url>
-  <url><loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/working-while-studying.html</loc><lastmod>2026-10-05</lastmod></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/index.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/index.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/fr/index.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/index.html"/>
+  </url>
+  <url>
+    <loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/avs.html</loc>
+    <lastmod>2026-10-05</lastmod>
+  </url>
+  <url>
+    <loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/bank-practical.html</loc>
+    <lastmod>2026-10-05</lastmod>
+  </url>
+  <url>
+    <loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/bank.html</loc>
+    <lastmod>2026-10-05</lastmod>
+  </url>
+  <url>
+    <loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/camipro.html</loc>
+    <lastmod>2026-10-05</lastmod>
+  </url>
+  <url>
+    <loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/driving-licence.html</loc>
+    <lastmod>2026-10-05</lastmod>
+  </url>
+  <url>
+    <loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/epfl-housing.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/epfl-housing.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/fr/epfl-housing.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/epfl-housing.html"/>
+  </url>
+  <url>
+    <loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/first-weeks-checklist.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/first-weeks-checklist.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/fr/first-weeks-checklist.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/first-weeks-checklist.html"/>
+  </url>
+  <url>
+    <loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/getting-around.html</loc>
+    <lastmod>2026-10-05</lastmod>
+  </url>
+  <url>
+    <loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/glossary.html</loc>
+    <lastmod>2026-10-05</lastmod>
+  </url>
+  <url>
+    <loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/gp-pharmacy.html</loc>
+    <lastmod>2026-10-05</lastmod>
+  </url>
+  <url>
+    <loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/health-emergencies.html</loc>
+    <lastmod>2026-10-05</lastmod>
+  </url>
+  <url>
+    <loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/household-rc-insurance.html</loc>
+    <lastmod>2026-10-05</lastmod>
+  </url>
+  <url>
+    <loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/lamal.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/lamal.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/fr/lamal.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/lamal.html"/>
+  </url>
+  <url>
+    <loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/permit-commune.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/permit-commune.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/fr/permit-commune.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/permit-commune.html"/>
+  </url>
+  <url>
+    <loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/phone.html</loc>
+    <lastmod>2026-10-05</lastmod>
+  </url>
+  <url>
+    <loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/rental-deposit.html</loc>
+    <lastmod>2026-10-05</lastmod>
+  </url>
+  <url>
+    <loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/residence-tax-vs-income-tax.html</loc>
+    <lastmod>2026-10-05</lastmod>
+  </url>
+  <url>
+    <loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/semester-deadlines.html</loc>
+    <lastmod>2026-10-05</lastmod>
+  </url>
+  <url>
+    <loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/serafe.html</loc>
+    <lastmod>2026-10-05</lastmod>
+  </url>
+  <url>
+    <loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/student-tax.html</loc>
+    <lastmod>2026-10-05</lastmod>
+  </url>
+  <url>
+    <loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/timeline.html</loc>
+    <lastmod>2026-10-05</lastmod>
+  </url>
+  <url>
+    <loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/waitlist.html</loc>
+    <lastmod>2026-10-05</lastmod>
+  </url>
+  <url>
+    <loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/waste-recycling.html</loc>
+    <lastmod>2026-10-05</lastmod>
+  </url>
+  <url>
+    <loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/working-while-studying.html</loc>
+    <lastmod>2026-10-05</lastmod>
+  </url>
+  <url>
+    <loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/fr/epfl-housing.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/epfl-housing.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/fr/epfl-housing.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/epfl-housing.html"/>
+  </url>
+  <url>
+    <loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/fr/first-weeks-checklist.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/first-weeks-checklist.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/fr/first-weeks-checklist.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/first-weeks-checklist.html"/>
+  </url>
+  <url>
+    <loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/fr/index.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/index.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/fr/index.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/index.html"/>
+  </url>
+  <url>
+    <loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/fr/lamal.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/lamal.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/fr/lamal.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/lamal.html"/>
+  </url>
+  <url>
+    <loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/fr/permit-commune.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/permit-commune.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/fr/permit-commune.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/permit-commune.html"/>
+  </url>
 </urlset>
