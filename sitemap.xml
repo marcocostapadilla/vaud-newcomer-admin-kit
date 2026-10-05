@@ -187,6 +187,9 @@
   <url>
     <loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/waste-epfl-communes.html</loc>
     <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/waste-epfl-communes.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/fr/waste-epfl-communes.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/waste-epfl-communes.html"/>
   </url>
   <url>
     <loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/waste-recycling.html</loc>
@@ -376,6 +379,13 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/travel-without-permit.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/fr/travel-without-permit.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/travel-without-permit.html"/>
+  </url>
+  <url>
+    <loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/fr/waste-epfl-communes.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/waste-epfl-communes.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/fr/waste-epfl-communes.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/waste-epfl-communes.html"/>
   </url>
   <url>
     <loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/fr/waste-recycling.html</loc>
