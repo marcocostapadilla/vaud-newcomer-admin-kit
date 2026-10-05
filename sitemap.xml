@@ -106,6 +106,9 @@
   <url>
     <loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/housing-scams.html</loc>
     <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/housing-scams.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/fr/housing-scams.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/housing-scams.html"/>
   </url>
   <url>
     <loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/lamal.html</loc>
@@ -124,6 +127,9 @@
   <url>
     <loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/mental-health-epfl.html</loc>
     <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/mental-health-epfl.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/fr/mental-health-epfl.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/mental-health-epfl.html"/>
   </url>
   <url>
     <loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/permit-commune.html</loc>
@@ -149,6 +155,9 @@
   <url>
     <loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/post-mail-redirect.html</loc>
     <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/post-mail-redirect.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/fr/post-mail-redirect.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/post-mail-redirect.html"/>
   </url>
   <url>
     <loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/rental-deposit.html</loc>
@@ -344,6 +353,13 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/household-rc-insurance.html"/>
   </url>
   <url>
+    <loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/fr/housing-scams.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/housing-scams.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/fr/housing-scams.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/housing-scams.html"/>
+  </url>
+  <url>
     <loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/fr/index.html</loc>
     <lastmod>2026-10-05</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/index.html"/>
@@ -365,6 +381,13 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/leaving-deregister.html"/>
   </url>
   <url>
+    <loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/fr/mental-health-epfl.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/mental-health-epfl.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/fr/mental-health-epfl.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/mental-health-epfl.html"/>
+  </url>
+  <url>
     <loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/fr/permit-commune.html</loc>
     <lastmod>2026-10-05</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/permit-commune.html"/>
@@ -384,6 +407,13 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/phone.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/fr/phone.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/phone.html"/>
+  </url>
+  <url>
+    <loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/fr/post-mail-redirect.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/post-mail-redirect.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/fr/post-mail-redirect.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/post-mail-redirect.html"/>
   </url>
   <url>
     <loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/fr/rental-deposit.html</loc>
