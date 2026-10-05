@@ -113,6 +113,9 @@
   <url>
     <loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/phone-esim-swisscom.html</loc>
     <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/phone-esim-swisscom.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/fr/phone-esim-swisscom.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/phone-esim-swisscom.html"/>
   </url>
   <url>
     <loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/phone.html</loc>
@@ -138,6 +141,9 @@
   <url>
     <loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/residence-tax-vs-income-tax.html</loc>
     <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/residence-tax-vs-income-tax.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/fr/residence-tax-vs-income-tax.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/residence-tax-vs-income-tax.html"/>
   </url>
   <url>
     <loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/semester-deadlines.html</loc>
@@ -302,6 +308,13 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/permit-commune.html"/>
   </url>
   <url>
+    <loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/fr/phone-esim-swisscom.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/phone-esim-swisscom.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/fr/phone-esim-swisscom.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/phone-esim-swisscom.html"/>
+  </url>
+  <url>
     <loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/fr/phone.html</loc>
     <lastmod>2026-10-05</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/phone.html"/>
@@ -321,6 +334,13 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/rental-inventory.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/fr/rental-inventory.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/rental-inventory.html"/>
+  </url>
+  <url>
+    <loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/fr/residence-tax-vs-income-tax.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/residence-tax-vs-income-tax.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/fr/residence-tax-vs-income-tax.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/residence-tax-vs-income-tax.html"/>
   </url>
   <url>
     <loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/fr/semester-deadlines.html</loc>
