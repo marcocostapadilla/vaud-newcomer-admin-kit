@@ -75,6 +75,9 @@
   <url>
     <loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/leaving-deregister.html</loc>
     <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/leaving-deregister.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/fr/leaving-deregister.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/leaving-deregister.html"/>
   </url>
   <url>
     <loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/permit-commune.html</loc>
@@ -125,6 +128,9 @@
   <url>
     <loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/travel-without-permit.html</loc>
     <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/travel-without-permit.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/fr/travel-without-permit.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/travel-without-permit.html"/>
   </url>
   <url>
     <loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/waitlist.html</loc>
@@ -181,6 +187,13 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/lamal.html"/>
   </url>
   <url>
+    <loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/fr/leaving-deregister.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/leaving-deregister.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/fr/leaving-deregister.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/leaving-deregister.html"/>
+  </url>
+  <url>
     <loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/fr/permit-commune.html</loc>
     <lastmod>2026-10-05</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/permit-commune.html"/>
@@ -193,6 +206,13 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/timeline.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/fr/timeline.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/timeline.html"/>
+  </url>
+  <url>
+    <loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/fr/travel-without-permit.html</loc>
+    <lastmod>2026-10-05</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/travel-without-permit.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/fr/travel-without-permit.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/travel-without-permit.html"/>
   </url>
   <url>
     <loc>https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/fr/waste-recycling.html</loc>
