@@ -2,7 +2,4 @@
 User-agent: *
 Allow: /
 
-# Crawlers expect an absolute Sitemap URL; replace with the approved public URL at go-live,
-# e.g. Sitemap: https://<user>.github.io/<repo>/sitemap.xml (or set SITE_BASE_URL and rebuild).
-# Note: robots.txt is only honoured at a domain root, not under a /repo/ subpath.
-Sitemap: sitemap.xml
+Sitemap: https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/sitemap.xml
