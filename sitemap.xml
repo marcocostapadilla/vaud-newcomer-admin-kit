@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Path-only <loc> entries: no public URL has been approved yet. Before go-live, set SITE_BASE_URL in build.py (e.g. https://<user>.github.io/<repo>) or run python3 build.py --base-url <url>, then rebuild. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>index.html</loc><lastmod>2026-10-05</lastmod></url>
+  <url><loc>avs.html</loc><lastmod>2026-10-05</lastmod></url>
+  <url><loc>bank-practical.html</loc><lastmod>2026-10-05</lastmod></url>
+  <url><loc>bank.html</loc><lastmod>2026-10-05</lastmod></url>
+  <url><loc>camipro.html</loc><lastmod>2026-10-05</lastmod></url>
+  <url><loc>driving-licence.html</loc><lastmod>2026-10-05</lastmod></url>
+  <url><loc>epfl-housing.html</loc><lastmod>2026-10-05</lastmod></url>
+  <url><loc>first-weeks-checklist.html</loc><lastmod>2026-10-05</lastmod></url>
+  <url><loc>getting-around.html</loc><lastmod>2026-10-05</lastmod></url>
+  <url><loc>glossary.html</loc><lastmod>2026-10-05</lastmod></url>
+  <url><loc>gp-pharmacy.html</loc><lastmod>2026-10-05</lastmod></url>
+  <url><loc>health-emergencies.html</loc><lastmod>2026-10-05</lastmod></url>
+  <url><loc>lamal.html</loc><lastmod>2026-10-05</lastmod></url>
+  <url><loc>permit-commune.html</loc><lastmod>2026-10-05</lastmod></url>
+  <url><loc>phone.html</loc><lastmod>2026-10-05</lastmod></url>
+  <url><loc>residence-tax-vs-income-tax.html</loc><lastmod>2026-10-05</lastmod></url>
+  <url><loc>semester-deadlines.html</loc><lastmod>2026-10-05</lastmod></url>
+  <url><loc>serafe.html</loc><lastmod>2026-10-05</lastmod></url>
+  <url><loc>student-tax.html</loc><lastmod>2026-10-05</lastmod></url>
+  <url><loc>timeline.html</loc><lastmod>2026-10-05</lastmod></url>
+  <url><loc>waste-recycling.html</loc><lastmod>2026-10-05</lastmod></url>
+  <url><loc>working-while-studying.html</loc><lastmod>2026-10-05</lastmod></url>
+</urlset>
