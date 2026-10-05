@@ -43,3 +43,12 @@ kept here, so the site works without running anything.
 
 Disclaimer: orientation guide only, not official, legal, tax or insurance advice. Always check
 the linked official sources.
+
+## Also in this folder (5 Oct 2026)
+
+- `fr/`: French versions of Home, the printable checklist, Permit & commune, LAMal and EPFL housing
+  (language switch EN ↔ FR on those pages; untranslated topics link back to the English page).
+- `glossary.html`: plain-language glossary, linked from every page's nav and footer.
+- `sitemap.xml` / `robots.txt`: path-only sitemap entries because no public URL is approved yet. At go-live,
+  rebuild with `python3 build.py --base-url https://<user>.github.io/<repo>` so the `<loc>`s and the
+  `Sitemap:` line become absolute.
