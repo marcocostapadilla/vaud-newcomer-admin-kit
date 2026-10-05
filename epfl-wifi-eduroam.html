@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EPFL campus Wi-Fi: epfl vs eduroam | Newcomer Kit</title>
+<meta name="description" content="Day-1 campus Wi-Fi for EPFL students: prefer the epfl SSID with your EPFL account; use eduroam at partner campuses such as UNIL.">
+<meta name="referrer" content="no-referrer">
+<link rel="stylesheet" href="style.css">
+<link rel="canonical" href="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/epfl-wifi-eduroam.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="EPFL campus Wi-Fi: epfl vs eduroam | Newcomer Kit">
+<meta property="og:description" content="Day-1 campus Wi-Fi for EPFL students: prefer the epfl SSID with your EPFL account; use eduroam at partner campuses such as UNIL.">
+<meta property="og:url" content="https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/epfl-wifi-eduroam.html">
+<meta property="og:site_name" content="Vaud Newcomer Admin Kit">
+<meta property="og:locale" content="en_GB">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="EPFL campus Wi-Fi: epfl vs eduroam | Newcomer Kit">
+<meta name="twitter:description" content="Day-1 campus Wi-Fi for EPFL students: prefer the epfl SSID with your EPFL account; use eduroam at partner campuses such as UNIL.">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","headline":"EPFL campus Wi-Fi: epfl vs eduroam | Newcomer Kit","description":"Day-1 campus Wi-Fi for EPFL students: prefer the epfl SSID with your EPFL account; use eduroam at partner campuses such as UNIL.","url":"https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/epfl-wifi-eduroam.html","inLanguage":"en","isPartOf":{"@type":"WebSite","name":"Vaud Newcomer Admin Kit","url":"https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/index.html"}}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="index.html">Vaud Newcomer Admin Kit</a>
+    <nav class="primary-nav" aria-label="Primary">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#start-here">Start here</a></li>
+        <li><a href="first-weeks-checklist.html">Checklist</a></li>
+        <li><a href="timeline.html">Timeline</a></li>
+        <li><a href="glossary.html">Glossary</a></li>
+        <li><a href="#all-pages">All topics</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main" class="wrap" tabindex="-1">
+<nav class="breadcrumb" aria-label="Breadcrumb"><ol><li><a href="index.html">Home</a></li><li>First 2 weeks</li><li aria-current="page">Campus Wi-Fi: epfl vs eduroam</li></ol></nav>
+<article>
+<h1>Campus Wi-Fi: epfl vs eduroam</h1>
+<p class="meta">Last checked: 5 Oct 2026. Unofficial student guide, not EPFL or government advice: confirm on the linked official pages before you act. Unfamiliar abbreviation? See the <a href="glossary.html">Glossary</a>.</p>
+
+<p>Companion to <a href="camipro.html">CAMIPRO</a>.</p>
+<hr>
+<h2 id="short-version">Short version</h2>
+<p>On the EPFL campus, prefer the <strong><code>epfl</code></strong> Wi-Fi network with your EPFL account (<code>username@epfl.ch</code>). Use <strong><code>eduroam</code></strong> when you visit other Eduroam partner campuses (for example regular trips to UNIL) and want one login everywhere.</p>
+<p>Sources: <a href="https://www.epfl.ch/campus/services/en/it-services/network-services/wifi/epfl-members/">EPFL Members - which network</a> · <a href="https://www.epfl.ch/campus/services/en/it-services/network-services/wifi/access-epfl-and-eduroam-network/">Access to epfl and eduroam</a> · <a href="https://www.epfl.ch/campus/services/en/it-services/network-services/wifi/">WiFi hub</a></p>
+<hr>
+<h2 id="which-ssid-when">Which SSID when</h2>
+<div class="table-wrap"><table>
+<thead><tr>
+<th scope="col">SSID</th>
+<th scope="col">When EPFL says to use it</th>
+</tr></thead><tbody>
+<tr><td><strong>epfl</strong></td><td>Prefer on the EPFL campus. After you install the profile, devices reconnect automatically; access includes campus intranet resources.</td></tr>
+<tr><td><strong>eduroam</strong></td><td>When you travel between Eduroam partner sites and want the same credentials (EPFL example: EPFL ↔ UNIL). At other universities, use your <strong>home</strong> institution username/password.</td></tr>
+</tbody></table></div>
+<p>Visitors and guests have separate Wi-Fi options on the <a href="https://www.epfl.ch/campus/services/en/it-services/network-services/wifi/">WiFi hub</a>; this page is for EPFL members (students with campus accounts).</p>
+<hr>
+<h2 id="technical-pointers-from-epfl-access-page">Technical pointers (from EPFL access page)</h2>
+<p>General settings EPFL publishes for both SSIDs (open the live page for OS-specific profile installers: Windows, macOS, iOS, Linux, Android):</p>
+<ul>
+<li>Encryption: AES-CCMP</li>
+<li>Auth: WPA2-802.1X / WPA3-802.1X (Enterprise)</li>
+<li>EAP: PEAP + MS-CHAPv2 or EAP-TTLS + MS-CHAPv2</li>
+<li>CA: DigiCert_Global_Root_G2.pem</li>
+<li>Server: <code>radius.epfl.ch</code></li>
+<li>Username: <code>Username@epfl.ch</code> (password via EPFL password management)</li>
+</ul>
+<p>Install the official <strong>EPFL</strong> or <strong>EDUROAM</strong> profile for your OS from the access page rather than guessing settings by hand.</p>
+<hr>
+<h2 id="account-2fa">Account / 2FA</h2>
+<p>Wi-Fi uses your EPFL digital identity. If login fails after matriculation, fix the account / strong authentication first (EPFL IT identity docs), then retry the Wi-Fi profile. This kit does not invent GASPAR-era steps; follow current Entra / identity pages linked from IT.</p>
+<hr>
+<h2 id="sources-checked-5-oct-2026">Sources (checked 5 Oct 2026)</h2>
+<ul>
+<li><a href="https://www.epfl.ch/campus/services/en/it-services/network-services/wifi/">https://www.epfl.ch/campus/services/en/it-services/network-services/wifi/</a></li>
+<li><a href="https://www.epfl.ch/campus/services/en/it-services/network-services/wifi/epfl-members/">https://www.epfl.ch/campus/services/en/it-services/network-services/wifi/epfl-members/</a></li>
+<li><a href="https://www.epfl.ch/campus/services/en/it-services/network-services/wifi/access-epfl-and-eduroam-network/">https://www.epfl.ch/campus/services/en/it-services/network-services/wifi/access-epfl-and-eduroam-network/</a></li>
+</ul>
+<p><em>Unofficial student project. Prefer EPFL’s OS profile installers over third-party Wi-Fi guides.</em></p>
+<aside class="box related" aria-labelledby="related-h"><h2 id="related-h">Related</h2><ul><li><a href="camipro.html">CAMIPRO &amp; matriculation</a>: CAMIPRO is the campus card; Wi-Fi uses your EPFL account separately.</li><li><a href="phone-esim-swisscom.html">Phone: eSIM &amp; Swisscom</a>: Mobile data until campus Wi-Fi works.</li><li><a href="getting-around.html">Getting around</a>: Trains, metro and buses to campus.</li></ul></aside>
+<aside class="box deadlines" aria-labelledby="deadlines-h">
+<h2 id="deadlines-h">Deadlines for this topic</h2>
+<p>No fixed deadline is stated in the sources for this topic.</p>
+<p><a href="timeline.html">See the full first-year timeline</a></p></aside>
+<aside class="box sources" aria-labelledby="sources-h">
+<h2 id="sources-h">Official sources</h2>
+<ul><li><a href="https://www.epfl.ch/campus/services/en/it-services/network-services/wifi/epfl-members/">EPFL Members - which network</a></li><li><a href="https://www.epfl.ch/campus/services/en/it-services/network-services/wifi/access-epfl-and-eduroam-network/">Access to epfl and eduroam</a></li><li><a href="https://www.epfl.ch/campus/services/en/it-services/network-services/wifi/">WiFi hub</a></li></ul>
+<p class="small">Always treat the official page as authoritative; it may have changed since this kit was written.</p>
+</aside>
+</article>
+<nav class="pager" aria-label="Previous and next topic (arrival order)"><a class="pager-prev" href="camipro.html" rel="prev"><span>Previous</span>CAMIPRO &amp; matriculation</a><a class="pager-next" href="semester-deadlines.html" rel="next"><span>Next</span>Semester dates &amp; FRAC deadlines</a></nav>
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <nav id="all-pages" aria-label="All pages">
+      <div class="footer-cols">
+        <div><h2 class="footer-h">Start</h2><ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#start-here">Start here: first weeks</a></li>
+          <li><a href="first-weeks-checklist.html">Printable checklist</a></li>
+          <li><a href="timeline.html">First-year timeline</a></li>
+          <li><a href="glossary.html">Glossary (B, L, FRAC, LAMal …)</a></li>
+          <li><a href="waitlist.html">Optional: consult waitlist</a></li>
+        </ul></div>
+        <div><h2 class="footer-h">Before you arrive</h2><ul>
+          <li><a href="epfl-housing.html">EPFL housing</a></li>
+          <li><a href="rental-deposit.html">Rental deposit</a></li>
+          <li><a href="rental-inventory.html">Rental inventory / état des lieux</a></li>
+          <li><a href="utilities-electricity-move-in.html">Utilities: electricity move-in</a></li>
+          <li><a href="lamal.html">LAMal health insurance</a></li>
+          <li><a href="household-rc-insurance.html">Household / RC / ECA</a></li>
+        </ul></div>
+        <div><h2 class="footer-h">First 2 weeks</h2><ul>
+          <li><a href="permit-commune.html">Permit &amp; commune registration</a></li>
+          <li><a href="travel-without-permit.html">Travel before permit card</a></li>
+          <li><a href="camipro.html">CAMIPRO &amp; matriculation</a></li>
+          <li><a href="epfl-wifi-eduroam.html" aria-current="page">Campus Wi-Fi (epfl / eduroam)</a></li>
+          <li><a href="semester-deadlines.html">Semester dates &amp; FRAC deadlines</a></li>
+          <li><a href="phone.html">Mobile phone</a></li>
+          <li><a href="phone-esim-swisscom.html">Phone: eSIM &amp; Swisscom</a></li>
+          <li><a href="health-emergencies.html">Health &amp; emergencies</a></li>
+          <li><a href="gp-pharmacy.html">GP &amp; pharmacy</a></li>
+        </ul></div>
+        <div><h2 class="footer-h">First month</h2><ul>
+          <li><a href="bank.html">Bank account</a></li>
+          <li><a href="bank-practical.html">Bank: practical checklist</a></li>
+          <li><a href="getting-around.html">Getting around</a></li>
+          <li><a href="student-pass-commune-subsidy.html">Student pass: commune subsidy</a></li>
+          <li><a href="half-fare-swisspass-students.html">Half-Fare &amp; SwissPass</a></li>
+          <li><a href="waste-recycling.html">Waste &amp; recycling</a></li>
+          <li><a href="waste-epfl-communes.html">Waste by EPFL commune</a></li>
+        </ul></div>
+        <div><h2 class="footer-h">Later / only if relevant</h2><ul>
+          <li><a href="working-while-studying.html">Working while studying</a></li>
+          <li><a href="student-jobs-find.html">Student jobs: where to look</a></li>
+          <li><a href="leaving-deregister.html">Leaving / change of address</a></li>
+          <li><a href="serafe.html">Serafe (radio/TV fee)</a></li>
+          <li><a href="avs.html">AVS for students</a></li>
+          <li><a href="student-tax.html">Student tax</a></li>
+          <li><a href="residence-tax-vs-income-tax.html">Residence tax vs income tax</a></li>
+          <li><a href="driving-licence.html">Driving licence exchange</a></li>
+        </ul></div>
+      </div>
+<p class="footer-waitlist">Free kit, always. Want a human walkthrough? <a href="waitlist.html">Say so here</a>.</p>
+    </nav>
+    <p class="disclaimer"><strong>Disclaimer:</strong> orientation guide only, not official, legal, tax or insurance advice. Fees, deadlines and eligibility change. Always check the linked official pages and follow your commune, permit, employer and cantonal letters.</p>
+  </div>
+</footer>
+</body>
+</html>
