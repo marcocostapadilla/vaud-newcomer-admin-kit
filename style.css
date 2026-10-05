@@ -136,7 +136,7 @@ tr:last-child td { border-bottom: 0; }
 /* related block, prev/next, collapsible advanced notes */
 .related { border-left: 5px solid #6b4fa0; }
 .related li { margin: .45rem 0; }
-.related li > a:first-child { padding-block: .2rem; }  /* inline padding grows the hit area to >= 24px without reflow */
+.related a { display: inline-block; min-height: 44px; padding: .55rem 0; box-sizing: border-box; }  /* QA18 P2: >=44px tap targets */
 .pager { display: flex; flex-wrap: wrap; justify-content: space-between; gap: .75rem; margin: 2rem 0 0; }
 .pager a { flex: 1 1 12rem; display: block; border: 1px solid var(--line); border-radius: var(--radius); padding: .6rem .9rem; text-decoration: none; }
 .pager a span { display: block; font-size: .8rem; color: var(--muted); text-transform: uppercase; letter-spacing: .03em; }
@@ -172,7 +172,7 @@ details.source-notes td:first-child { min-width: 14rem; }
 .footer-cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr)); gap: 0 1.5rem; }
 .footer-h { font-size: .95rem; margin: 0 0 .4rem; }
 .site-footer ul { list-style: none; padding: 0; }
-.site-footer li a { display: inline-block; padding: .3rem 0; }  /* tap target >= 24px (WCAG 2.5.8) */
+.site-footer li a { display: inline-block; min-height: 44px; padding: .55rem 0; box-sizing: border-box; }  /* QA18 P2: >=44px tap targets */
 .site-footer a[aria-current="page"] { font-weight: 700; }
 .disclaimer { color: var(--muted); border-top: 1px solid var(--line); padding-top: 1rem; margin-bottom: 0; }
 
