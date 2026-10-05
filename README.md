@@ -51,5 +51,5 @@ the linked official sources.
 - `glossary.html`: plain-language glossary, linked from every page's nav and footer.
 - `sitemap.xml` / `robots.txt`: absolute URLs under
   `https://marcocostapadilla.github.io/vaud-newcomer-admin-kit/` (see `SEO.md` at the kit root).
-  Note: crawlers only honour `robots.txt` at the GitHub Pages **domain root**, not under this project path —
+  Note: crawlers only honour `robots.txt` at the GitHub Pages **domain root**, not under this project path ,
   submit the sitemap in Search Console as well.
