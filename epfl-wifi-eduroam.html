@@ -57,30 +57,45 @@
 <th scope="col">When EPFL says to use it</th>
 </tr></thead><tbody>
 <tr><td><strong>epfl</strong></td><td>Prefer on the EPFL campus. After you install the profile, devices reconnect automatically; access includes campus intranet resources.</td></tr>
-<tr><td><strong>eduroam</strong></td><td>When you travel between Eduroam partner sites and want the same credentials (EPFL example: EPFL ↔ UNIL). At other universities, use your <strong>home</strong> institution username/password.</td></tr>
+<tr><td><strong>eduroam</strong></td><td>Only if you travel often between Eduroam partner sites and want the same login everywhere (EPFL example: regular trips EPFL ↔ UNIL). You keep using your own institution's identifier and password (for EPFL students: <code>username@epfl.ch</code>).</td></tr>
 </tbody></table></div>
 <p>Visitors and guests have separate Wi-Fi options on the <a href="https://www.epfl.ch/campus/services/en/it-services/network-services/wifi/">WiFi hub</a>; this page is for EPFL members (students with campus accounts).</p>
 <hr>
 <h2 id="technical-pointers-from-epfl-access-page">Technical pointers (from EPFL access page)</h2>
-<p>General settings EPFL publishes for both SSIDs (open the live page for OS-specific profile installers: Windows, macOS, iOS, Linux, Android):</p>
+<p>General settings EPFL publishes for both SSIDs (SSID row: <code>epfl</code> "choose as a priority on the EPFL campus", <code>eduroam</code> at other universities):</p>
 <ul>
 <li>Encryption: AES-CCMP</li>
 <li>Auth: WPA2-802.1X / WPA3-802.1X (Enterprise)</li>
 <li>EAP: PEAP + MS-CHAPv2 or EAP-TTLS + MS-CHAPv2</li>
 <li>CA: DigiCert_Global_Root_G2.pem</li>
 <li>Server: <code>radius.epfl.ch</code></li>
-<li>Username: <code>Username@epfl.ch</code> (password via EPFL password management)</li>
+<li>Outer identity: <code>anonymous@epfl.ch</code></li>
+<li>Username: <code>Username@epfl.ch</code> (EPFL password; the page links "Password management")</li>
+<li>Domain: none ("-" on the EPFL table)</li>
 </ul>
-<p>Install the official <strong>EPFL</strong> or <strong>EDUROAM</strong> profile for your OS from the access page rather than guessing settings by hand.</p>
+<p>What the access page offers per OS (checked 5 Oct 2026):</p>
+<div class="table-wrap"><table>
+<thead><tr>
+<th scope="col">OS</th>
+<th scope="col">What EPFL provides</th>
+</tr></thead><tbody>
+<tr><td>macOS 10.10 and later</td><td>PDF guide + downloadable <strong>Profile EPFL</strong> / <strong>Profile EDUROAM</strong></td></tr>
+<tr><td>iPhone / iPad (iOS 8 and later)</td><td>PDF guide + downloadable <strong>Profile EPFL</strong> / <strong>Profile EDUROAM</strong></td></tr>
+<tr><td>Windows 11</td><td>PDF setup guide (no profile file listed)</td></tr>
+<tr><td>Linux</td><td>PDF setup guide</td></tr>
+<tr><td>Android</td><td>PDF setup guide</td></tr>
+</tbody></table></div>
+<p>Use EPFL's profile (Apple devices) or EPFL's PDF guide (Windows, Linux, Android) rather than guessing settings by hand.</p>
 <hr>
 <h2 id="account-2fa">Account / 2FA</h2>
-<p>Wi-Fi uses your EPFL digital identity. If login fails after matriculation, fix the account / strong authentication first (EPFL IT identity docs), then retry the Wi-Fi profile. This kit does not invent GASPAR-era steps; follow current Entra / identity pages linked from IT.</p>
+<p>Wi-Fi logs in with your EPFL account (<code>username@epfl.ch</code> + EPFL password). The access page's "Password management" link points to EPFL IT's <strong>Entra ID</strong> authentication pages (<a href="https://www.epfl.ch/campus/services/en/it-services/authentication/entra-id/manage-passwords/">Manage passwords</a>); on 5 Oct 2026 that page showed "VPN error" from outside EPFL, so open it on campus wired / VPN or ask the <a href="https://www.epfl.ch/campus/services/en/it-services/it-support/">IT Service Desk</a>. The Wi-Fi pages say nothing about 2FA / MFA for Wi-Fi; this kit does not add steps EPFL does not publish. If login fails, check the password first, then reinstall the profile or re-follow the PDF guide.</p>
 <hr>
 <h2 id="sources-checked-5-oct-2026">Sources (checked 5 Oct 2026)</h2>
 <ul>
 <li><a href="https://www.epfl.ch/campus/services/en/it-services/network-services/wifi/">https://www.epfl.ch/campus/services/en/it-services/network-services/wifi/</a></li>
 <li><a href="https://www.epfl.ch/campus/services/en/it-services/network-services/wifi/epfl-members/">https://www.epfl.ch/campus/services/en/it-services/network-services/wifi/epfl-members/</a></li>
 <li><a href="https://www.epfl.ch/campus/services/en/it-services/network-services/wifi/access-epfl-and-eduroam-network/">https://www.epfl.ch/campus/services/en/it-services/network-services/wifi/access-epfl-and-eduroam-network/</a></li>
+<li><a href="https://www.epfl.ch/campus/services/en/it-services/authentication/entra-id/manage-passwords/">https://www.epfl.ch/campus/services/en/it-services/authentication/entra-id/manage-passwords/</a> (VPN-only from outside on 5 Oct 2026)</li>
 </ul>
 <p><em>Unofficial student project. Prefer EPFL’s OS profile installers over third-party Wi-Fi guides.</em></p>
 <aside class="box related" aria-labelledby="related-h"><h2 id="related-h">Related</h2><ul><li><a href="camipro.html">CAMIPRO &amp; matriculation</a>: CAMIPRO is the campus card; Wi-Fi uses your EPFL account separately.</li><li><a href="phone-esim-swisscom.html">Phone: eSIM &amp; Swisscom</a>: Mobile data until campus Wi-Fi works.</li><li><a href="getting-around.html">Getting around</a>: Trains, metro and buses to campus.</li></ul></aside>
@@ -90,7 +105,7 @@
 <p><a href="timeline.html">See the full first-year timeline</a></p></aside>
 <aside class="box sources" aria-labelledby="sources-h">
 <h2 id="sources-h">Official sources</h2>
-<ul><li><a href="https://www.epfl.ch/campus/services/en/it-services/network-services/wifi/epfl-members/">EPFL Members - which network</a></li><li><a href="https://www.epfl.ch/campus/services/en/it-services/network-services/wifi/access-epfl-and-eduroam-network/">Access to epfl and eduroam</a></li><li><a href="https://www.epfl.ch/campus/services/en/it-services/network-services/wifi/">WiFi hub</a></li></ul>
+<ul><li><a href="https://www.epfl.ch/campus/services/en/it-services/network-services/wifi/epfl-members/">EPFL Members - which network</a></li><li><a href="https://www.epfl.ch/campus/services/en/it-services/network-services/wifi/access-epfl-and-eduroam-network/">Access to epfl and eduroam</a></li><li><a href="https://www.epfl.ch/campus/services/en/it-services/network-services/wifi/">WiFi hub</a></li><li><a href="https://www.epfl.ch/campus/services/en/it-services/authentication/entra-id/manage-passwords/">Manage passwords</a></li><li><a href="https://www.epfl.ch/campus/services/en/it-services/it-support/">IT Service Desk</a></li></ul>
 <p class="small">Always treat the official page as authoritative; it may have changed since this kit was written.</p>
 </aside>
 </article>
