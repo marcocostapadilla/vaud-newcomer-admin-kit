@@ -14,6 +14,7 @@ body {
 }
 .wrap { max-width: var(--measure); margin: 0 auto; padding: 0 1rem; }
 a { color: var(--link); text-underline-offset: 0.15em; overflow-wrap: anywhere; }
+code, kbd, samp { overflow-wrap: anywhere; }  /* long path-like tokens (e.g. URL stubs) must not widen the page */
 a:visited { color: var(--link-visited); }
 a:hover { text-decoration-thickness: 2px; }
 a:focus-visible, summary:focus-visible, button:focus-visible, input:focus-visible,
