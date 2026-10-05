@@ -52,6 +52,7 @@ hr { border: 0; border-top: 1px solid var(--line); margin: 2rem 0; }
 
 .breadcrumb ol { list-style: none; padding: 0; margin: 0 0 .5rem; display: flex; flex-wrap: wrap; font-size: .9rem; color: var(--muted); }
 .breadcrumb li + li::before { content: "›"; padding: 0 .45rem; }
+.breadcrumb a { display: inline-block; padding: .2rem 0; }  /* tap target >= 24px (WCAG 2.5.8) */
 
 .box { border: 1px solid var(--line); border-radius: var(--radius); background: var(--bg-soft); padding: .9rem 1.1rem; margin: 1.5rem 0; }
 .box h2 { margin-top: 0; font-size: 1.15rem; }
@@ -130,6 +131,8 @@ tr:last-child td { border-bottom: 0; }
 
 /* related block, prev/next, collapsible advanced notes */
 .related { border-left: 5px solid #6b4fa0; }
+.related li { margin: .45rem 0; }
+.related li > a:first-child { padding-block: .2rem; }  /* inline padding grows the hit area to >= 24px without reflow */
 .pager { display: flex; flex-wrap: wrap; justify-content: space-between; gap: .75rem; margin: 2rem 0 0; }
 .pager a { flex: 1 1 12rem; display: block; border: 1px solid var(--line); border-radius: var(--radius); padding: .6rem .9rem; text-decoration: none; }
 .pager a span { display: block; font-size: .8rem; color: var(--muted); text-transform: uppercase; letter-spacing: .03em; }
@@ -179,9 +182,13 @@ details.source-notes td:first-child { min-width: 14rem; }
 .print-checklist { max-width: 48rem; }
 .print-checklist ul { list-style: none; padding-left: 0; }
 .print-checklist li { margin: .35rem 0; break-inside: avoid; }
-.print-checklist .check-item { display: flex; gap: .5rem; align-items: flex-start; min-width: 0; }
-.print-checklist .check-item input { margin-top: .35rem; flex: 0 0 auto; width: 1rem; height: 1rem; }
-.print-checklist .check-item .check-text { flex: 1 1 auto; min-width: 0; overflow-wrap: anywhere; }
+/* task-list checkboxes ("- [ ]" in sources): whole label is the target; box sized for touch */
+ul:has(> li > .check-item) { list-style: none; padding-left: .25rem; }
+.check-item { display: flex; gap: .6rem; align-items: flex-start; min-width: 0; cursor: pointer; }
+.check-item input { margin: .2rem 0 0; flex: 0 0 auto; width: 1.25rem; height: 1.25rem; accent-color: var(--accent); }
+.check-item .check-text { flex: 1 1 auto; min-width: 0; overflow-wrap: anywhere; }
+.print-checklist .check-item { gap: .5rem; }
+.print-checklist .check-item input { margin-top: .35rem; width: 1rem; height: 1rem; }
 .print-hint { background: #eef5ff; border: 1px solid #b8d3f5; border-radius: 6px; padding: .6rem .8rem; }
 @media print {
   .site-header, .site-footer, .skip-link, .timeline-cta, .screen-only, .breadcrumb, .print-cta, .pager { display: none !important; }
