@@ -144,6 +144,15 @@
 
 </article>
 </main>
+<aside class="useful wrap" id="useful" hidden><p class="useful-q"><span id="useful-label"></span> <button type="button" class="useful-btn" data-v="yes"></button> <button type="button" class="useful-btn" data-v="no"></button></p><p class="useful-thanks" id="useful-thanks" aria-live="polite"></p></aside>
+<script>(function(){try{var K="vaudkit-useful-asked",b=document.getElementById("useful");if(!b)return;var fr=document.documentElement.lang==="fr",st=null;try{st=window.sessionStorage;if(st.getItem(K))return}catch(e){st=null}
+var t=fr?["Cette page vous a-t-elle été utile\u00a0?","Oui","Non","Merci pour votre retour.","Avis sur cette page"]:["Was this useful?","Yes","No","Thanks for your feedback.","Page feedback"];
+var q=b.querySelector(".useful-q"),bt=b.querySelectorAll("button"),th=document.getElementById("useful-thanks");
+b.setAttribute("aria-label",t[4]);document.getElementById("useful-label").textContent=t[0];bt[0].textContent=t[1];bt[1].textContent=t[2];
+var slug=(location.pathname.split("/").pop()||"index.html").replace(/\.html$/,"")||"index";if(fr)slug="fr/"+slug;
+function send(path){var n=0;(function go(){try{var g=window.goatcounter;if(g&&typeof g.count==="function"){g.count({path:path,title:document.title,event:true});return}}catch(e){return}if(++n<30)setTimeout(go,100)})()}
+function pick(v){try{if(st)st.setItem(K,v)}catch(e){}q.hidden=true;th.textContent=t[3];send("useful-"+v+"/"+slug)}
+for(var i=0;i<bt.length;i++)bt[i].addEventListener("click",function(){pick(this.getAttribute("data-v"))});b.hidden=false}catch(e){}})();</script>
 <footer class="site-footer">
   <div class="wrap">
     <nav id="all-pages" aria-label="Toutes les pages">
