@@ -54,6 +54,11 @@ hr { border: 0; border-top: 1px solid var(--line); margin: 2rem 0; }
 .breadcrumb ol { list-style: none; padding: 0; margin: 0 0 .5rem; display: flex; flex-wrap: wrap; font-size: .9rem; color: var(--muted); }
 .breadcrumb li + li::before { content: "›"; padding: 0 .45rem; }
 .breadcrumb a { display: inline-flex; align-items: center; min-height: 44px; padding: .2rem 0; }  /* nav target 44px (WCAG 2.5.8 + preferred size) */
+/* QA51: keep items on one baseline and the trail to <= 2 rows on phones; the current page (repeated as the H1)
+   truncates with an ellipsis instead of wrapping, while links keep their 44px targets. */
+.breadcrumb ol { align-items: center; }
+.breadcrumb li { display: inline-flex; align-items: center; min-height: 44px; }
+.breadcrumb li[aria-current="page"] { display: block; flex: 1 1 9rem; min-width: 0; line-height: 44px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 
 .box { border: 1px solid var(--line); border-radius: var(--radius); background: var(--bg-soft); padding: .9rem 1.1rem; margin: 1.5rem 0; }
 .box h2 { margin-top: 0; font-size: 1.15rem; }
@@ -191,7 +196,7 @@ details.source-notes td:first-child { min-width: 14rem; }
 /* task-list checkboxes ("- [ ]" in sources): whole label is the target; box sized for touch */
 ul:has(> li > .check-item) { list-style: none; padding-left: .25rem; }
 .check-item { display: flex; gap: .6rem; align-items: flex-start; min-width: 0; cursor: pointer; }
-.check-item input { margin: .2rem 0 0; flex: 0 0 auto; width: 1.25rem; height: 1.25rem; accent-color: var(--accent); }
+.check-item input { margin: .1rem 0 0; flex: 0 0 auto; width: 1.5rem; height: 1.5rem; accent-color: var(--accent); }  /* QA51: 24px on every page */
 .check-item .check-text { flex: 1 1 auto; min-width: 0; overflow-wrap: anywhere; }
 .print-checklist .check-item { gap: .5rem; }
 .print-checklist .check-item input { margin-top: .35rem; width: 1rem; height: 1rem; }
