@@ -33,7 +33,7 @@ main:focus { outline: none; }
 
 .site-header { border-bottom: 1px solid var(--line); background: var(--bg-soft); }
 .header-inner { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .25rem 1rem; padding-top: .75rem; padding-bottom: .75rem; }
-.brand { font-weight: 700; color: var(--accent); text-decoration: none; font-size: 1.05rem; }
+.brand { font-weight: 700; color: var(--accent); text-decoration: none; font-size: 1.05rem; display: inline-flex; align-items: center; min-height: 44px; }  /* a11y sweep: 44px target */
 .brand:visited { color: var(--accent); }
 .primary-nav ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: .25rem 1rem; }
 .primary-nav a { text-decoration: none; padding: .55rem 0; display: inline-flex; align-items: center; min-height: 44px; }
@@ -53,7 +53,7 @@ hr { border: 0; border-top: 1px solid var(--line); margin: 2rem 0; }
 
 .breadcrumb ol { list-style: none; padding: 0; margin: 0 0 .5rem; display: flex; flex-wrap: wrap; font-size: .9rem; color: var(--muted); }
 .breadcrumb li + li::before { content: "›"; padding: 0 .45rem; }
-.breadcrumb a { display: inline-block; padding: .2rem 0; }  /* tap target >= 24px (WCAG 2.5.8) */
+.breadcrumb a { display: inline-flex; align-items: center; min-height: 44px; padding: .2rem 0; }  /* nav target 44px (WCAG 2.5.8 + preferred size) */
 
 .box { border: 1px solid var(--line); border-radius: var(--radius); background: var(--bg-soft); padding: .9rem 1.1rem; margin: 1.5rem 0; }
 .box h2 { margin-top: 0; font-size: 1.15rem; }
@@ -195,6 +195,7 @@ ul:has(> li > .check-item) { list-style: none; padding-left: .25rem; }
 .check-item .check-text { flex: 1 1 auto; min-width: 0; overflow-wrap: anywhere; }
 .print-checklist .check-item { gap: .5rem; }
 .print-checklist .check-item input { margin-top: .35rem; width: 1rem; height: 1rem; }
+@media screen { .print-checklist .check-item input { width: 1.5rem; height: 1.5rem; margin-top: .1rem; } }  /* a11y sweep: >= 24px on screen; print size unchanged */
 .print-hint { background: #eef5ff; border: 1px solid #b8d3f5; border-radius: 6px; padding: .6rem .8rem; }
 @media print {
   .site-header, .site-footer, .skip-link, .timeline-cta, .screen-only, .breadcrumb, .print-cta, .waitlist-inline, .pager { display: none !important; }
