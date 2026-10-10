@@ -82,6 +82,8 @@ hr { border: 0; border-top: 1px solid var(--line); margin: 2rem 0; }
 .timeline-cta span { opacity: .95; }
 .timeline-cta:hover { background: #084a2f; }
 
+.lead-fact { margin: .5rem 0 1rem; padding: .6rem .8rem; border-left: 5px solid var(--link); background: #f3f6fb; border-radius: var(--radius); font-size: .95rem; }
+.lead-fact p { margin: 0; }
 .table-wrap { overflow-x: auto; margin: 0 0 1rem; border: 1px solid var(--line); border-radius: var(--radius); }
 table { border-collapse: collapse; width: 100%; font-size: .95rem; }
 th, td { text-align: left; vertical-align: top; padding: .55rem .7rem; border-bottom: 1px solid var(--line); }
