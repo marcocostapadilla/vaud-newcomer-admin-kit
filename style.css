@@ -11,6 +11,7 @@ body {
   margin: 0; color: var(--text); background: var(--bg);
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 1.0625rem; line-height: 1.6;
+  overflow-wrap: break-word;  /* a11y/mobile sweep: long unbroken tokens (e.g. a raw URL in text) wrap instead of widening the page at 320px */
 }
 .wrap { max-width: var(--measure); margin: 0 auto; padding: 0 1rem; }
 a { color: var(--link); text-underline-offset: 0.15em; overflow-wrap: anywhere; }
@@ -18,7 +19,7 @@ code, kbd, samp { overflow-wrap: anywhere; }  /* long path-like tokens (e.g. URL
 a:visited { color: var(--link-visited); }
 a:hover { text-decoration-thickness: 2px; }
 a:focus-visible, summary:focus-visible, button:focus-visible, input:focus-visible,
-select:focus-visible, textarea:focus-visible, [tabindex]:focus-visible {
+select:focus-visible, textarea:focus-visible, [tabindex]:focus-visible, .table-wrap:focus-visible {
   outline: 3px solid #8a5a00; outline-offset: 2px; border-radius: 3px;
   box-shadow: 0 0 0 5px #fff, 0 0 0 8px #8a5a00;
 }
@@ -26,7 +27,7 @@ select:focus-visible, textarea:focus-visible, [tabindex]:focus-visible {
 .skip-link { position: absolute; left: -999px; top: 0; z-index: 100; background: #fff; color: var(--link);
   padding: .6rem 1rem; border: 2px solid var(--accent); border-radius: 0 0 var(--radius) 0; font-weight: 600; }
 .skip-link:focus, .skip-link:focus-visible { left: .5rem; top: .5rem; outline: 3px solid #8a5a00; outline-offset: 2px; box-shadow: 0 0 0 5px #fff, 0 0 0 8px #8a5a00; }
-main:focus { outline: none; }
+main:focus { outline: none; }  /* main is only a programmatic skip-link target (tabindex=-1), never a Tab stop */
 .glossary-cta { background: var(--link); }
 .lang-switch a { font-weight: 600; }
 .glossary-cta:hover { background: #083e7c; }
