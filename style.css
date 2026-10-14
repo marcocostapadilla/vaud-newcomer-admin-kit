@@ -191,6 +191,43 @@ details.source-notes td:first-child { min-width: 14rem; }
   .start-here ol { padding-left: 1.45rem; }
   .pager-next { text-align: left; }
 }
+/* Wide-desktop layout pass (2026-10-14): CSS only, mobile rules above untouched.
+   Reading pages keep the --measure text column; header and footer align to the same column.
+   The home page (detected by .start-here) gets a wider container with a 2-column card grid. */
+:root { --wide: 76rem; --shadow-sm: 0 1px 2px rgba(16, 32, 47, .06); --shadow-md: 0 4px 14px rgba(16, 32, 47, .10); }
+.site-header { box-shadow: var(--shadow-sm); }
+.card { box-shadow: var(--shadow-sm); transition: border-color .15s, box-shadow .15s, transform .15s; }
+.card:hover { box-shadow: var(--shadow-md); }
+.table-wrap { box-shadow: var(--shadow-sm); }
+tbody tr:nth-child(even) td { background: #f9fafb; }
+.pager a { box-shadow: var(--shadow-sm); }
+.pager a:hover { border-color: var(--link); box-shadow: var(--shadow-md); }
+@media (prefers-reduced-motion: no-preference) { .card:hover { transform: translateY(-1px); } }
+@media (min-width: 64rem) {
+  body { font-size: 1.125rem; line-height: 1.65; }
+  .wrap { padding-left: 2rem; padding-right: 2rem; max-width: calc(var(--measure) + 4rem); }
+  .header-inner { padding-top: 1rem; padding-bottom: 1rem; }
+  .brand { font-size: 1.2rem; letter-spacing: -.01em; }
+  .primary-nav ul { gap: .25rem 1.4rem; }
+  main { padding-top: 2rem; padding-bottom: 3.5rem; }
+  h1 { font-size: 2.4rem; margin: .5rem 0 1.25rem; letter-spacing: -.01em; }
+  h2 { font-size: 1.55rem; margin-top: 2.5rem; }
+  h3 { font-size: 1.2rem; }
+  .box { padding: 1.1rem 1.4rem; }
+  th, td { padding: .65rem .9rem; }
+  .site-footer { padding: 2.5rem 0 3rem; }
+  /* home page: wide container, header/footer follow it */
+  body:has(.start-here) .wrap { max-width: calc(var(--wide) + 4rem); }
+  body:has(.start-here) .cards { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem 1.25rem; }
+  .cards .card { padding: 1.1rem 1.25rem; }
+  .start-here { padding: .6rem 1.6rem 1.25rem; }
+  body:has(.start-here) .start-here { column-count: 2; column-gap: 3rem; column-rule: 1px solid var(--line); }
+  .start-here > h2, .start-here > p, .start-here > .print-cta { column-span: all; }
+  .start-here > h3 { break-after: avoid; }
+  .start-here > ol > li, .start-here > blockquote { break-inside: avoid; }
+  body:has(.start-here) main > .timeline-cta { display: inline-block; vertical-align: top; width: calc(50% - .65rem); margin: 1rem 0; min-height: 5.5rem; }
+  body:has(.start-here) main > .timeline-cta + .timeline-cta { margin-left: 1.25rem; }
+}
 .print-checklist { max-width: 48rem; }
 .print-checklist ul { list-style: none; padding-left: 0; }
 .print-checklist li { margin: .35rem 0; break-inside: avoid; }
