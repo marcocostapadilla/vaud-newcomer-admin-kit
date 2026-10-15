@@ -248,6 +248,9 @@ ul:has(> li > .check-item) { list-style: none; padding-left: .25rem; }
 .useful-btn:hover { background: var(--accent); color: #fff; }
 .useful-thanks { margin: 0; color: var(--text); }
 .useful-thanks:empty { display: none; }
+/* Home pages: compact prompt moved into #useful-slot (after Start here) by templates/page.html */
+.useful-slot:empty { display: none; }
+.useful-slot .useful { max-width: none; margin: 0 0 1.5rem; padding: .5rem 1rem; border: 1px solid var(--line); border-top: 1px solid var(--line); border-radius: var(--radius); background: #f7f9fb; }
 @media print {
   .site-header, .site-footer, .skip-link, .useful, .timeline-cta, .screen-only, .breadcrumb, .print-cta, .waitlist-inline, .pager { display: none !important; }
   .print-checklist { max-width: none; }

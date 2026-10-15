@@ -144,7 +144,7 @@ b.setAttribute("aria-label",t[4]);document.getElementById("useful-label").textCo
 var slug=(location.pathname.split("/").pop()||"index.html").replace(/\.html$/,"")||"index";if(fr)slug="fr/"+slug;
 function send(path){var n=0;(function go(){try{var g=window.goatcounter;if(g&&typeof g.count==="function"){g.count({path:path,title:document.title,event:true});return}}catch(e){return}if(++n<30)setTimeout(go,100)})()}
 function pick(v){try{if(st)st.setItem(K,v)}catch(e){}q.hidden=true;th.textContent=t[3];send("useful-"+v+"/"+slug)}
-for(var i=0;i<bt.length;i++)bt[i].addEventListener("click",function(){pick(this.getAttribute("data-v"))});b.hidden=false}catch(e){}})();</script>
+for(var i=0;i<bt.length;i++)bt[i].addEventListener("click",function(){pick(this.getAttribute("data-v"))});var sl=document.getElementById("useful-slot");if(sl){b.classList.remove("wrap");sl.appendChild(b)}b.hidden=false}catch(e){}})();</script>
 <footer class="site-footer">
   <div class="wrap">
     <nav id="all-pages" aria-label="All pages">

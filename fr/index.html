@@ -100,6 +100,7 @@
 <p><strong>Vous commencez en février 2027 ?</strong> Les mêmes étapes s'appliquent. Les cours du semestre de printemps commencent le 22 février 2027, et le FRAC et l'inscription aux cours sont à faire au plus tard le 5 mars 2027. → <a href="semester-deadlines.html">Dates du semestre</a></p>
 <hr>
 <p><strong>Pas un conseil officiel.</strong> Guide d'orientation seulement, pas un conseil juridique, fiscal ou d'assurance. Les informations peuvent changer : vérifiez toujours les sources officielles indiquées avant d'agir.</p></section>
+<div id="useful-slot" class="useful-slot"></div>
 <p class="meta waitlist-inline">Liste terminée mais un doute sur ton cas ? <a href="waitlist.html">Demande un court accompagnement 1:1 gratuit</a>. Sans frais pour demander.</p>
 <a class="timeline-cta" href="timeline.html"><strong>Calendrier de la 1re année</strong><span>Chaque délai indiqué dans les sources, avec les dates passées marquées</span></a>
 <a class="timeline-cta glossary-cta" href="glossary.html"><strong>Glossaire</strong><span>Lettres de permis (B, L, C …), FRAC, IS-Academia, LAMal, SPOP, TWINT et d'autres mots</span></a>
@@ -244,7 +245,7 @@ b.setAttribute("aria-label",t[4]);document.getElementById("useful-label").textCo
 var slug=(location.pathname.split("/").pop()||"index.html").replace(/\.html$/,"")||"index";if(fr)slug="fr/"+slug;
 function send(path){var n=0;(function go(){try{var g=window.goatcounter;if(g&&typeof g.count==="function"){g.count({path:path,title:document.title,event:true});return}}catch(e){return}if(++n<30)setTimeout(go,100)})()}
 function pick(v){try{if(st)st.setItem(K,v)}catch(e){}q.hidden=true;th.textContent=t[3];send("useful-"+v+"/"+slug)}
-for(var i=0;i<bt.length;i++)bt[i].addEventListener("click",function(){pick(this.getAttribute("data-v"))});b.hidden=false}catch(e){}})();</script>
+for(var i=0;i<bt.length;i++)bt[i].addEventListener("click",function(){pick(this.getAttribute("data-v"))});var sl=document.getElementById("useful-slot");if(sl){b.classList.remove("wrap");sl.appendChild(b)}b.hidden=false}catch(e){}})();</script>
 <footer class="site-footer">
   <div class="wrap">
     <nav id="all-pages" aria-label="Toutes les pages">

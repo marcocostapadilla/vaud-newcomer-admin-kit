@@ -67,13 +67,13 @@
 <th scope="col">Date</th>
 <th scope="col">What happens</th>
 </tr></thead><tbody>
-<tr><td>1–3 Sep 2026</td><td>Matriculation Days (foreign diplomas) (<a href="https://www.epfl.ch/education/studies/en/preparation-epfl/new-bachelor-students/">New Bachelor students</a>)</td></tr>
-<tr><td>4 Sep 2026</td><td>Welcome Day (information sessions). It is compulsory for new Bachelor's and Master's students (<a href="https://www.epfl.ch/education/studies/en/preparation-epfl/new-bachelor-students/">New Bachelor students</a>, <a href="https://www.epfl.ch/education/studies/en/preparation-epfl/new-master-students/">New Master students</a>)</td></tr>
-<tr><td><strong>7 Sep 2026</strong></td><td><strong>Classes start</strong></td></tr>
-<tr><td><strong>18 Sep 2026</strong></td><td><strong>FRAC and course registration due</strong></td></tr>
-<tr><td>21 Sep 2026</td><td>Federal Fasting Monday (holiday)</td></tr>
+<tr><td><span class="badge-past">Past</span> 1–3 Sep 2026</td><td>Matriculation Days (foreign diplomas) (<a href="https://www.epfl.ch/education/studies/en/preparation-epfl/new-bachelor-students/">New Bachelor students</a>)</td></tr>
+<tr><td><span class="badge-past">Past</span> 4 Sep 2026</td><td>Welcome Day (information sessions). It is compulsory for new Bachelor's and Master's students (<a href="https://www.epfl.ch/education/studies/en/preparation-epfl/new-bachelor-students/">New Bachelor students</a>, <a href="https://www.epfl.ch/education/studies/en/preparation-epfl/new-master-students/">New Master students</a>)</td></tr>
+<tr><td><span class="badge-past">Past</span> <strong>7 Sep 2026</strong></td><td><strong>Classes start</strong></td></tr>
+<tr><td><span class="badge-past">Past</span> <strong>18 Sep 2026</strong></td><td><strong>FRAC and course registration due</strong></td></tr>
+<tr><td><span class="badge-past">Past</span> 21 Sep 2026</td><td>Federal Fasting Monday (holiday)</td></tr>
 <tr><td>Early Oct 2026</td><td>Exam withdrawal opens (Bachelor's and Master's cycles; not first year)</td></tr>
-<tr><td><strong>9 Oct 2026</strong></td><td><strong>CMS: deadline to leave without failure (calendar due date)</strong></td></tr>
+<tr><td><span class="badge-past">Past</span> <strong>9 Oct 2026</strong></td><td><strong>CMS: deadline to leave without failure (calendar due date)</strong></td></tr>
 <tr><td>16 Oct 2026 (end of day)</td><td>Classes stop for the autumn break</td></tr>
 <tr><td>26 Oct 2026</td><td>Classes resume</td></tr>
 <tr><td><strong>31 Oct 2026</strong></td><td><strong>Foundation year: deadline to leave without failure (calendar due date)</strong></td></tr>
@@ -133,7 +133,7 @@
 <th scope="col">Deadline 2026–27</th>
 <th scope="col">What happens if you leave in time</th>
 </tr></thead><tbody>
-<tr><td><strong>CMS</strong> students</td><td><strong>9 Oct 2026</strong> (rule: the Friday of the 5th week of classes)</td><td>The year doesn't count as a failure. To come back to the CMS, you must apply again within the usual deadlines.</td></tr>
+<tr><td><strong>CMS</strong> students</td><td><span class="badge-past">Past</span> <strong>9 Oct 2026</strong> (rule: the Friday of the 5th week of classes)</td><td>The year doesn't count as a failure. To come back to the CMS, you must apply again within the usual deadlines.</td></tr>
 <tr><td><strong>Foundation year</strong>, <em>first attempt only</em></td><td><strong>31 Oct 2026</strong></td><td>The year doesn't count as a failure. To come back to EPFL, you must apply again within the usual deadlines.</td></tr>
 <tr><td><strong><span lang="fr">Mise à niveau</span></strong> students</td><td><strong>31 Mar 2027</strong></td><td>The <em><span lang="fr">mise à niveau</span></em> semester doesn't count as a failure: you leave EPFL with only your earlier first-year failure, and get no other transcripts. But you can't resume your Bachelor's at EPFL later, because the time limit for the first-year cycle no longer allows it.</td></tr>
 </tbody></table></div>
@@ -243,7 +243,7 @@ b.setAttribute("aria-label",t[4]);document.getElementById("useful-label").textCo
 var slug=(location.pathname.split("/").pop()||"index.html").replace(/\.html$/,"")||"index";if(fr)slug="fr/"+slug;
 function send(path){var n=0;(function go(){try{var g=window.goatcounter;if(g&&typeof g.count==="function"){g.count({path:path,title:document.title,event:true});return}}catch(e){return}if(++n<30)setTimeout(go,100)})()}
 function pick(v){try{if(st)st.setItem(K,v)}catch(e){}q.hidden=true;th.textContent=t[3];send("useful-"+v+"/"+slug)}
-for(var i=0;i<bt.length;i++)bt[i].addEventListener("click",function(){pick(this.getAttribute("data-v"))});b.hidden=false}catch(e){}})();</script>
+for(var i=0;i<bt.length;i++)bt[i].addEventListener("click",function(){pick(this.getAttribute("data-v"))});var sl=document.getElementById("useful-slot");if(sl){b.classList.remove("wrap");sl.appendChild(b)}b.hidden=false}catch(e){}})();</script>
 <footer class="site-footer">
   <div class="wrap">
     <nav id="all-pages" aria-label="All pages">
